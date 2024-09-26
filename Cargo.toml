@@ -1,5 +1,5 @@
 [package]
-name = "groth16_verifier"
+name = "groth16-verifier"
 version = "0.1.0"
 edition = "2021"
 
@@ -14,7 +14,7 @@ ark-ec = { version = "=0.4.1", default-features = false, features = ["parallel"]
 ark-groth16 = { version = "=0.4.0", default-features = false, features = ["parallel"] }
 
 # Big integer support
-num-bigint = { version = "=0.4.3", default-features = false, features = ["rand"] }
+num-bigint = { version = ">0.4.3", default-features = false, features = ["rand"] }
 
 # JSON parsing with Serde
 serde = { version = "1.0", features = ["derive"] }
