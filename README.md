@@ -53,13 +53,13 @@ To generate a proof that is small enough to be verified on-chain and verifiable 
 
 ```sh
 cd script
-cargo run --release --bin evm -- --system groth16 --vk <path_to_verify_key> --proof <path_to_proof> --inputs <path_to_public_inputs>
+cargo run --release --bin evm -- --system groth16 --vk <verify_key_content> --proof <proof_content> --inputs <inputs_content>
 ```
 
 this will generate a Groth16 proof. If you want to generate a PLONK proof, run the following command:
 
 ```sh
-cargo run --release --bin evm -- --system plonk --vk <path_to_verify_key> --proof <path_to_proof> --inputs <path_to_public_inputs>
+cargo run --release --bin evm -- --system plonk --vk <verify_key_content> --proof <proof_content> --inputs <inputs_content>
 ```
 
 These commands will also generate fixtures that can be used to test the verification of SP1 zkVM proofs

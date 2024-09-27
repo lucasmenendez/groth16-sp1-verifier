@@ -24,7 +24,7 @@ pub const ELF: &[u8] = include_bytes!("../../../elf/riscv32im-succinct-zkvm-elf"
 #[clap(author, version, about, long_about = None)]
 struct EVMArgs {
     #[clap(long)]
-    vkey: String,
+    vk: String,
 
     #[clap(long)]
     proof: String,
