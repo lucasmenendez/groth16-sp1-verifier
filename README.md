@@ -1,6 +1,8 @@
 # SP1 Groth16 Verifier
 
-This prject has been developed with the [SP1](https://github.com/succinctlabs/sp1) template for creating an end-to-end project
+Basic Groth16 SnarkJS verifier compatible with SP1. It uses [arkworks-rs/groth16](https://github.com/arkworks-rs/groth16).
+
+This project has been developed with the [SP1](https://github.com/succinctlabs/sp1) template for creating an end-to-end project
 that can generate a proof of any RISC-V program.
 
 ## Requirements
