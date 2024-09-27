@@ -90,5 +90,5 @@ For example, to generate an EVM-compatible proof using the prover network, run t
 command:
 
 ```sh
-SP1_PROVER=network SP1_PRIVATE_KEY=... cargo run --release --bin evm --vk <path_to_verify_key> --proof <path_to_proof> --inputs <path_to_public_inputs>
+SP1_PROVER=network SP1_PRIVATE_KEY=... cargo run --release --bin evm --vk <verify_key_content> --proof <proof_content> --inputs <inputs_content>
 ```
