@@ -1,6 +1,6 @@
 [package]
 version = "0.1.0"
-name = "fibonacci-program"
+name = "groth16-verifier-program"
 edition = "2021"
 
 [dependencies]
